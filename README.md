@@ -12,7 +12,7 @@
 
 ---
 
- <img src="/images/results.png">
+ <img src="/images/results.png" width=500>
 
 
 
