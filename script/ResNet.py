@@ -85,10 +85,6 @@ class MnistResNet (ResNet):
 
 # training loop + eval loop
 
-'''
-
-
-
 tf = Compose([Resize((224, 224)), ToTensor()])
 train_set = MyDataset("train", transform=tf)
 # image torch size([1, 224, 224])
@@ -169,7 +165,9 @@ for epoch in range(epochs):
         f"Epoch {epoch + 1}/{epochs}, training loss: {total_loss / batches}, validation loss: {val_losses / val_batches}")
     print_scores(precision, recall, f1, accuracy, val_batches)
     losses.append(total_loss / batches)
-print(losses)'''
+print(losses)
+              
+              
 def sum():
     model = MnistResNet ()
     summary(model, input_size=(1, 128, 128))
