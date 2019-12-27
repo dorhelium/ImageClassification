@@ -14,7 +14,7 @@ The goal of this project is to recognize the largest numeric value out of three 
 
 ## Remarks
 
-The code for ResNet is adapted from the [torchvision library](https://pytorch.org/docs/stable/torchvision/models.html) (official PyTorch module with network architectures, image transformations and others) implementation. ResNet were originally designed for ImageNet competition, which was a color (3-channel) image classification task with 1000 classes. MNIST dataset howerver only contains 10 classes and it’s images are in the grayscale (1-channel). Therefore, the original implementation is adjusted accordingly to fit the features in MNIST dataset.
+The code for ResNet is adapted from the [torchvision library](https://pytorch.org/docs/stable/torchvision/models.html) (official PyTorch module with network architectures, image transformations and others) implementation. ResNet were originally designed for ImageNet competition, which was a color (3-channel) image classification task with 1000 classes. MNIST dataset howerver only contains 10 classes and it’s images are in the grayscale (1-channel). Therefore, the original implementation is adjusted accordingly to fit the features in MNIST dataset. An adapted VGGnet model in also included in the scripts.
 
 
  <img src="/images/results.png" >
